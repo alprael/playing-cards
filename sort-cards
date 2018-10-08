@@ -1,0 +1,11 @@
+# Sort Cards
+Alphabetize 4 suits and create a list for each (clubs, diamonds, hearts, spades)
+Make sure each card is assigned to its respective suit
+Aces must be at beginning of its suit’s list
+Kings must be at end of its suit’s list
+Each card relative to its suit’s list must be placed in ascending order, above ace, where  ace = value of 1, jack = value 11, queen = value 12, and king = value 13
+According to each suit’s list, do the following:
+1.	If value of card is = to another card, place it 1 index above that other card
+2.	If value of card is > value of previous card, place it 1 index above that previous card
+3.	If value of card < value of previous card, put it 1 index below that previous card
+Follow the above instructions until all cards have been sorted into its respective index and suits. Then place suits on top of each other starting with spades.
