@@ -1,0 +1,8 @@
+#dealer-compare
+compare list of cards to list of cards of another hand
+ face cards got a value of 10, ace can either be 1 or 11 (if rank.getValue() >= 10, then card get value of 10.)
+ Add up the values of each hand, if value is > 21, it's a bust.
+ if hand = 21 and if length of hand is 2, that's blackjack (which is a definitive win.)
+ however, if hand = 21 but length is over 2, not blackjack.
+ if hand is > 21 and contains an ace, ace has value of 1, otherwise it's 11.
+ Assuming hands aren't 21, if added value of hand1 is > the value of hand2 without busting, hand1 wins.
